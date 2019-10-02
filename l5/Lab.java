@@ -5,8 +5,8 @@ public class Lab {
 	public static void main(String[] args) {
 		create_rooms();
 		Room.show_rooms();
-		new Item("Jab³ko");
-		new Item("Krzes³o");
+		new Item("JabÂ³ko");
+		new Item("KrzesÂ³o");
 		new Item("Szafa");
 		System.out.println("");
 		Room.show_rooms2();
