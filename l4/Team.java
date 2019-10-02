@@ -39,7 +39,7 @@ public class Team implements Cloneable{
 				    FileWriter fileWriter;
 				    String date=sdf.format(cal.getTime());
 				    fileContent+=date;
-				    //String filename=team_name+"_"+date+".txt"; Nieznany b³¹d z dat¹ w nazwie pliku
+				    //String filename=team_name+"_"+date+".txt"; Nieznany bÂ³Â¹d z datÂ¹ w nazwie pliku
 				    String filename=team_name+".txt";
 				fileWriter = new FileWriter(filename);
 		        Writer output = null;
